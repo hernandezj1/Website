@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+    <script src ="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"> </script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="jose1.css">
+    <script src="samplejs.js"></script>
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+  </head>
+ <body onload="mapLoad(), loadXML()">
+        
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Jose Hernandez's Theses</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class ="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class ="nav-item">
+                <a class="nav-link" href="data.html">BA thesis</a>
+            </li>
+            <li class ="nav-item">
+            <a class="nav-link" href="contact.html">MA Thesis</a>
+            </li>
+            <li class ="nav-item">
+                <a class="nav-link" href="about.html">Functions</a>
+                </li>
+                <li class ="nav-item">
+                    <a class="nav-link" href="api.html">API</a> 
+                 </li>
+                 <li class ="nav-item">
+                    <a class="nav-link" href="datavis.html">Data Visualization</a> 
+                 </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="full" class="container-fluid">
+        <div id= "intro" class="container-fluid">
+            <p id="guide" class="container-fluid">
+                Data Visualization Resources
+            </p>
+          <p id="description" class="container-fluid"> 
+          
+          </p>
+          </div>
+      
+                <div> 
+                 
+                </div>
+            </div>
+        </div>
+        
+        <div id="hello">
+            <table class="table table-responsive table-bordered center" class="center" style="width:75%">
+                <thead>
+                  <tr>
+                    <th>
+                        <p>Program or Software</p>
+                    </th>
+                    <th>
+                        <p>Main Page</p>
+                    </th>
+                    <th>
+                      <p> Installation</p>
+                    </th>
+                    <th>
+                      <p>Documentation</p>
+                      </th>
+                  </tr>
+                </thead>
+            <tbody>
+                  <tr>
+                    <td>Gephi</td>
+                    <td><li><a href="https://gephi.org/">Introduction</a></li></td>
+                    <td><li><a href="https://gephi.org/">Installation</a></li></td>
+                    <td><li><a href="https://gephi.org/users/">Docs</a></li></td>
+                </tr>
+                <tr>
+                    <td>Palladio</td>
+                    <td><li><a href="https://hdlab.stanford.edu/palladio/"> Introduction</a></li></td>
+                    <td><li><a href=""></a></li></td>
+                    <td><li><a href="https://hdlab.stanford.edu/palladio/about/">Docs</a></li></td>
+                </tr>
+                <tr>
+                    <td>R studio</td>
+                    <td><li><a href="https://www.rstudio.com/">Introduction</a></li></td>
+                    <td><li><a href="https://www.rstudio.com/products/rstudio/download/">Installation</a></li></td>
+                    <td><li><a href="https://docs.rstudio.com/">Docs</a></li></td>
+                </tr>
+                <tr>
+                    <td>Tableau</td>
+                    <td><li><a href="https://public.tableau.com/app/discover">Introduction</a></li></td>
+                    <td><li><a href="https://www.tableau.com/products/public/download">Installation</a></li></td>
+                    <td><li><a href="https://www.tableau.com/learn/training/20222">Docs</a></li></td>
+                </tr>
+                <tr>
+                    <td>OpenRefine</td>
+                    <td><li><a href="https://openrefine.org/">Introduction</a></li></td>
+                    <td><li><a href="https://openrefine.org/download.html">Installation</a></li></td>
+                    <td><li><a href="https://docs.openrefine.org/">Docs</a></li></td>
+                </tr>
+                <tr>
+                    <td>Mapbox</td>
+                    <td><li><a href="https://www.mapbox.com/">Introduction</a></li></td>
+                    <td><li><a href="https://www.mapbox.com/mapbox-studio">Login</a></li></td>
+                    <td><li><a href=""></a></li></td>
+                </tr>
+                <tr>
+                    <td>Knightlab Tools</td>
+                    <td><li><a href="https://knightlab.northwestern.edu/">Introduction</a></li></td>
+                    <td><li><a href=""></a></li></td>
+                    <td><li><a href=""></a></li></td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+
+         <footer id="foot" class="mainfooter bg-dark" role="contentinfo">  
+            <div class="footer-middle">  
+            <div class="container">  
+              <div class="row">  
+                <div class="col-md-3 col-sm-6">  
+                  <div class="footer-pad">  
+                    <h4> Contact us</h4>  
+                    <ul class="list-unstyled">  
+                      <li> <a href="#"> </a> </li>  
+                      <li> <a href="#">Email: helloo@world.edu</a></li>  
+                      <li> <a href="#"> Phone: 633-476 </a></li>  
+                      
+                    </ul>  
+                  </div>  
+                </div>  
+                  
+                <div class="col-md-3 col-sm-6">  
+                  <div class="footer-pad">  
+                    <h4> Navigation </h4>  
+                    <ul class="list-unstyled">  
+                      <li>  <a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                       <li><a class="nav-link" href="data.html">BA thesis</a></li>
+                       <li> <a class="nav-link" href="contact.html">MA Thesis</a></li>
+                       <li><a class="nav-link" href="about.html">Functions</a> </li>
+                       <li><a class="nav-link" href="api.html">API</a></li>
+                       <li><a class="nav-link" href="datavis.html">Data Visualization</a></li>
+                    </ul>  
+                  </div>  
+                </div>  
+                \  
+              </div>  
+              <div class="row">  
+              <div class="col-md-12 copy">  
+              <p class="text-center"> © Copyright 2021 - HernandezInc.  All rights reserved. </p>  
+              </div>  
+              </div>  
+            </div>  
+         </footer>
+     </body>
+
+
+</html>

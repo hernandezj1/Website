@@ -1,0 +1,149 @@
+html{
+    background-color:cadetblue;
+}
+body {
+    background-color:cadetblue;
+}
+
+h1#title{ 
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    background-color:lavenderblush;
+    margin-bottom: 0px;
+}
+p#guide{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-align: left;
+    
+    
+    
+}
+nav#navbar{
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-weight: 200;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+div#full{
+    background-color:cadetblue;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-right: 100px;
+}
+
+
+div#image{
+    height: 600px;
+    width: 300px; 
+    text-align: center; 
+
+}
+
+p#description{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    border: black;
+    
+    background-color: white;
+    text-align: center;
+    border-style: solid;
+    
+    
+}
+p#paragraph2{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    border: black;
+    background-color: white;
+    border-style: solid;
+ 
+    
+}
+p#paragraph2:first-letter{
+    font-size: 200%;
+    float:left;
+}
+p#paragraph{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    border-color: black;
+    background-color: white;
+    border-style: solid;
+   
+}
+
+p#element { 
+    display:block;
+    color: green; 
+}
+div#button{
+    text-align: center;
+}
+
+div#java{
+    background-color:cadetblue;
+    border: black;
+}
+div#java2{
+    background-color: white;
+    border: black;
+    border-style: solid;
+    
+}
+
+div#table{
+    background-color: white;
+    border-style: solid;
+    border: black;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer#foot{
+
+  font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-weight: 200;
+
+    margin-top: 20px;
+    margin-bottom: 0px;
+color: aqua;
+    bottom: 0;
+    width:100%;
+    
+}
+
+#map{
+    height: 400px;
+    width: 100%;
+}
+iframe#sankey{
+    border: 5px;
+    border-color: bisque;
+}
+
+#bannerimage{
+    width:100%;
+   height: 50%;
+    border-bottom: 10px;
+}
+table{
+    border-color: black;
+    background-color: lavenderblush;
+   
+}
+
+div#SQL {
+    font-size: 16px;
+}
+
+
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
